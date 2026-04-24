@@ -159,4 +159,7 @@ codex-skill  openclaw  hermes-agent  migration  ai-agent  feishu  weixin  bigmod
 
 | | |
 |:---|:---|
+| 个人主页 | [jieni](https://jieni.ai) |
 | GitHub | [geekjourneyx](https://github.com/geekjourneyx) |
+| Twitter | [@seekjourney](https://x.com/seekjourney) |
+| 公众号 | 微信搜「极客杰尼」 |
