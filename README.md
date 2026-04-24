@@ -133,22 +133,6 @@ Before changing the SOP, verify that the updated instructions still cover:
 
 ---
 
-## GitHub Metadata
-
-Recommended repository description:
-
-```text
-Codex skill for safely migrating OpenClaw workspaces to Hermes Agent with providers, gateways, cron jobs, and rollback
-```
-
-Recommended topics:
-
-```text
-codex-skill  openclaw  hermes-agent  migration  ai-agent  feishu  weixin  bigmodel  z-ai  automation
-```
-
----
-
 ## License
 
 [MIT](./LICENSE) - free to use, modify, and distribute.
