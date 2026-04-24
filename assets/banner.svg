@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+  <title id="title">OpenClaw to Hermes Migration</title>
+  <desc id="desc">Safe state transfer for agent workspaces</desc>
+  <rect width="1920" height="1080" fill="#f5f4ed"/>
+  <circle cx="1600" cy="170" r="240" fill="#c96442" opacity="0.14"/>
+  <circle cx="260" cy="900" r="300" fill="#141413" opacity="0.06"/>
+  <rect x="120" y="120" width="1680" height="840" rx="48" fill="#ffffff" stroke="#e4dfd5" stroke-width="3"/>
+  <text x="180" y="260" fill="#c96442" font-family="Georgia, serif" font-size="34" font-weight="700" letter-spacing="5">CODEX SKILL</text>
+  <text x="180" y="390" fill="#141413" font-family="Georgia, serif" font-size="96" font-weight="700">OpenClaw to</text>
+  <text x="180" y="510" fill="#141413" font-family="Georgia, serif" font-size="96" font-weight="700">Hermes Migration</text>
+  <text x="184" y="600" fill="#4b5563" font-family="Arial, sans-serif" font-size="34">Freeze, migrate, validate, and roll back agent runtime state safely.</text>
+  <g transform="translate(180 705)">
+    <rect width="300" height="130" rx="26" fill="#f7eee9" stroke="#dfb6a5"/>
+    <text x="34" y="52" fill="#c96442" font-family="Arial, sans-serif" font-size="28" font-weight="700">01 Freeze</text>
+    <text x="34" y="92" fill="#141413" font-family="Arial, sans-serif" font-size="22">Stop active writers</text>
+  </g>
+  <g transform="translate(520 705)">
+    <rect width="300" height="130" rx="26" fill="#f7eee9" stroke="#dfb6a5"/>
+    <text x="34" y="52" fill="#c96442" font-family="Arial, sans-serif" font-size="28" font-weight="700">02 Dry-run</text>
+    <text x="34" y="92" fill="#141413" font-family="Arial, sans-serif" font-size="22">Preview every change</text>
+  </g>
+  <g transform="translate(860 705)">
+    <rect width="300" height="130" rx="26" fill="#f7eee9" stroke="#dfb6a5"/>
+    <text x="34" y="52" fill="#c96442" font-family="Arial, sans-serif" font-size="28" font-weight="700">03 Cutover</text>
+    <text x="34" y="92" fill="#141413" font-family="Arial, sans-serif" font-size="22">Move user state</text>
+  </g>
+  <g transform="translate(1200 705)">
+    <rect width="300" height="130" rx="26" fill="#f7eee9" stroke="#dfb6a5"/>
+    <text x="34" y="52" fill="#c96442" font-family="Arial, sans-serif" font-size="28" font-weight="700">04 Verify</text>
+    <text x="34" y="92" fill="#141413" font-family="Arial, sans-serif" font-size="22">Test real behavior</text>
+  </g>
+</svg>

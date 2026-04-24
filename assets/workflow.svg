@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Migration workflow</title>
+  <desc id="desc">Six-stage OpenClaw to Hermes migration workflow</desc>
+  <rect width="1920" height="1080" fill="#f5f4ed"/>
+  <text x="120" y="145" fill="#141413" font-family="Georgia, serif" font-size="76" font-weight="700">Migration Workflow</text>
+  <text x="124" y="205" fill="#4b5563" font-family="Arial, sans-serif" font-size="28">Move behavior, not just files. Validate each boundary before cutover.</text>
+  <g font-family="Arial, sans-serif">
+    <line x1="250" y1="545" x2="1670" y2="545" stroke="#dfb6a5" stroke-width="10" stroke-linecap="round"/>
+    <g transform="translate(120 365)">
+      <rect width="260" height="360" rx="32" fill="#ffffff" stroke="#e4dfd5" stroke-width="3"/>
+      <circle cx="130" cy="92" r="44" fill="#c96442"/>
+      <text x="105" y="105" fill="#ffffff" font-size="34" font-weight="700">01</text>
+      <text x="42" y="180" fill="#141413" font-size="31" font-weight="700">Freeze</text>
+      <text x="42" y="230" fill="#4b5563" font-size="22">Stop writers</text>
+      <text x="42" y="262" fill="#4b5563" font-size="22">Capture manifest</text>
+      <text x="42" y="294" fill="#4b5563" font-size="22">Check source state</text>
+    </g>
+    <g transform="translate(428 365)">
+      <rect width="260" height="360" rx="32" fill="#ffffff" stroke="#e4dfd5" stroke-width="3"/>
+      <circle cx="130" cy="92" r="44" fill="#c96442"/>
+      <text x="105" y="105" fill="#ffffff" font-size="34" font-weight="700">02</text>
+      <text x="42" y="180" fill="#141413" font-size="31" font-weight="700">Install</text>
+      <text x="42" y="230" fill="#4b5563" font-size="22">Set up Hermes</text>
+      <text x="42" y="262" fill="#4b5563" font-size="22">Run doctor</text>
+      <text x="42" y="294" fill="#4b5563" font-size="22">Confirm CLI</text>
+    </g>
+    <g transform="translate(736 365)">
+      <rect width="260" height="360" rx="32" fill="#ffffff" stroke="#e4dfd5" stroke-width="3"/>
+      <circle cx="130" cy="92" r="44" fill="#c96442"/>
+      <text x="105" y="105" fill="#ffffff" font-size="34" font-weight="700">03</text>
+      <text x="42" y="180" fill="#141413" font-size="31" font-weight="700">Dry-run</text>
+      <text x="42" y="230" fill="#4b5563" font-size="22">Preview migration</text>
+      <text x="42" y="262" fill="#4b5563" font-size="22">Review conflicts</text>
+      <text x="42" y="294" fill="#4b5563" font-size="22">No secrets first</text>
+    </g>
+    <g transform="translate(1044 365)">
+      <rect width="260" height="360" rx="32" fill="#ffffff" stroke="#e4dfd5" stroke-width="3"/>
+      <circle cx="130" cy="92" r="44" fill="#c96442"/>
+      <text x="105" y="105" fill="#ffffff" font-size="34" font-weight="700">04</text>
+      <text x="42" y="180" fill="#141413" font-size="31" font-weight="700">Migrate</text>
+      <text x="42" y="230" fill="#4b5563" font-size="22">Move user data</text>
+      <text x="42" y="262" fill="#4b5563" font-size="22">Import skills</text>
+      <text x="42" y="294" fill="#4b5563" font-size="22">Read report</text>
+    </g>
+    <g transform="translate(1352 365)">
+      <rect width="260" height="360" rx="32" fill="#ffffff" stroke="#e4dfd5" stroke-width="3"/>
+      <circle cx="130" cy="92" r="44" fill="#c96442"/>
+      <text x="105" y="105" fill="#ffffff" font-size="34" font-weight="700">05</text>
+      <text x="42" y="180" fill="#141413" font-size="31" font-weight="700">Wire</text>
+      <text x="42" y="230" fill="#4b5563" font-size="22">Providers</text>
+      <text x="42" y="262" fill="#4b5563" font-size="22">Gateways</text>
+      <text x="42" y="294" fill="#4b5563" font-size="22">Cron paused</text>
+    </g>
+    <g transform="translate(1660 365)">
+      <rect width="140" height="360" rx="32" fill="#141413"/>
+      <text x="42" y="105" fill="#ffffff" font-size="34" font-weight="700">06</text>
+      <text x="42" y="180" fill="#ffffff" font-size="31" font-weight="700">Verify</text>
+      <text x="42" y="230" fill="#d1d5db" font-size="22">Doctor</text>
+      <text x="42" y="262" fill="#d1d5db" font-size="22">Chat</text>
+      <text x="42" y="294" fill="#d1d5db" font-size="22">Service</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Core capabilities</title>
+  <desc id="desc">Six capabilities for safe OpenClaw to Hermes migration</desc>
+  <rect width="1920" height="1080" fill="#f5f4ed"/>
+  <text x="120" y="145" fill="#141413" font-family="Georgia, serif" font-size="76" font-weight="700">Core Capabilities</text>
+  <text x="124" y="205" fill="#4b5563" font-family="Arial, sans-serif" font-size="28">A migration SOP built around controlled state transfer and real validation.</text>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(120 300)">
+      <rect width="520" height="250" rx="34" fill="#ffffff" stroke="#e4dfd5" stroke-width="3"/>
+      <text x="36" y="62" fill="#c96442" font-size="28" font-weight="700">01</text>
+      <text x="36" y="115" fill="#141413" font-size="38" font-weight="700">Source Freeze</text>
+      <text x="36" y="166" fill="#4b5563" font-size="25">Stop OpenClaw writers and capture</text>
+      <text x="36" y="202" fill="#4b5563" font-size="25">checksums before migration.</text>
+    </g>
+    <g transform="translate(700 300)">
+      <rect width="520" height="250" rx="34" fill="#ffffff" stroke="#e4dfd5" stroke-width="3"/>
+      <text x="36" y="62" fill="#c96442" font-size="28" font-weight="700">02</text>
+      <text x="36" y="115" fill="#141413" font-size="38" font-weight="700">Dry-run First</text>
+      <text x="36" y="166" fill="#4b5563" font-size="25">Preview Hermes migration output</text>
+      <text x="36" y="202" fill="#4b5563" font-size="25">before executing any transfer.</text>
+    </g>
+    <g transform="translate(1280 300)">
+      <rect width="520" height="250" rx="34" fill="#ffffff" stroke="#e4dfd5" stroke-width="3"/>
+      <text x="36" y="62" fill="#c96442" font-size="28" font-weight="700">03</text>
+      <text x="36" y="115" fill="#141413" font-size="38" font-weight="700">Provider Safety</text>
+      <text x="36" y="166" fill="#4b5563" font-size="25">Configure model endpoints without</text>
+      <text x="36" y="202" fill="#4b5563" font-size="25">printing or leaking secrets.</text>
+    </g>
+    <g transform="translate(120 610)">
+      <rect width="520" height="250" rx="34" fill="#ffffff" stroke="#e4dfd5" stroke-width="3"/>
+      <text x="36" y="62" fill="#c96442" font-size="28" font-weight="700">04</text>
+      <text x="36" y="115" fill="#141413" font-size="38" font-weight="700">Gateway Debugging</text>
+      <text x="36" y="166" fill="#4b5563" font-size="25">Feishu and Weixin checks for</text>
+      <text x="36" y="202" fill="#4b5563" font-size="25">allowlists, scopes, and services.</text>
+    </g>
+    <g transform="translate(700 610)">
+      <rect width="520" height="250" rx="34" fill="#ffffff" stroke="#e4dfd5" stroke-width="3"/>
+      <text x="36" y="62" fill="#c96442" font-size="28" font-weight="700">05</text>
+      <text x="36" y="115" fill="#141413" font-size="38" font-weight="700">Cron Control</text>
+      <text x="36" y="166" fill="#4b5563" font-size="25">Recreate archived jobs one by one</text>
+      <text x="36" y="202" fill="#4b5563" font-size="25">and keep them paused.</text>
+    </g>
+    <g transform="translate(1280 610)">
+      <rect width="520" height="250" rx="34" fill="#ffffff" stroke="#e4dfd5" stroke-width="3"/>
+      <text x="36" y="62" fill="#c96442" font-size="28" font-weight="700">06</text>
+      <text x="36" y="115" fill="#141413" font-size="38" font-weight="700">Rollback Path</text>
+      <text x="36" y="166" fill="#4b5563" font-size="25">Keep OpenClaw recoverable until</text>
+      <text x="36" y="202" fill="#4b5563" font-size="25">Hermes passes real checks.</text>
+    </g>
+  </g>
+</svg>
