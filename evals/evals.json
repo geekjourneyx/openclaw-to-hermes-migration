@@ -1,0 +1,35 @@
+{
+  "skill_name": "openclaw-to-hermes-migration",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I have ~/.openclaw with Feishu, custom skills, memories, and cron jobs. Help me migrate to Hermes Agent safely and tell me the exact SOP, including dry-run, validation, and rollback.",
+      "expected_output": "A staged migration plan that freezes OpenClaw, captures manifests/checksums, installs Hermes, runs a user-data dry-run, executes migration, validates memory/skills/provider/messaging/cron, and preserves rollback.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Hermes gateway connects to Feishu but my messages don't get replies. Logs say Unauthorized user and Feishu access denied for im:chat:readonly. Debug and fix the likely migration issue.",
+      "expected_output": "A debug flow using journalctl and env inspection, explanation of FEISHU_ALLOWED_USERS and Feishu app scopes, commands to add the sender to allowlist, restart gateway, and required Feishu console permissions.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "After OpenClaw migration, switch Hermes to z.ai domestic BigModel endpoint. I have OpenClaw auth-profiles.json. Also remove the old provider only if I explicitly name one. Give me safe commands and validation.",
+      "expected_output": "Commands that discover providers without printing secrets, copy zai:default key to ZAI_API_KEY without exposing it, configure Hermes model/custom provider to z.ai domestic endpoint, avoid removing unrelated providers unless explicitly requested, then run hermes config check, doctor, and a minimal chat smoke test.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Migrate Feishu and Weixin settings from OpenClaw, but this user's OpenClaw install may not have either channel configured. Provide safe commands.",
+      "expected_output": "Commands that check whether OpenClaw Feishu/Weixin source config exists before reading nested fields, skip with a clear explanation when missing, back up ~/.hermes/.env before writing, and never print app secrets or tokens.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "OpenClaw archived multiple cron jobs during Hermes migration. Recreate them safely without assuming jobs[0], and do not let migrated jobs fire before provider and gateway validation.",
+      "expected_output": "A workflow that inspects all jobs, converts each available schedule and prompt into reviewable hermes cron create commands, handles missing schedule/prompt by asking for manual inspection, recreates selected jobs one by one, uses create output or hermes cron list --all to identify each new id, and pauses each new job immediately before enabling any schedules.",
+      "files": []
+    }
+  ]
+}
